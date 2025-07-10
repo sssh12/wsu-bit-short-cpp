@@ -1,0 +1,114 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\05_\uCC38\uC870\uC790.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\05_\uCC38\uC870\uC790.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\04_bool\uD615\uD0C0\uC785.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\04_bool\uD615\uD0C0\uC785.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\01_\uC785\uCD9C\uB825.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\01_\uC785\uCD9C\uB825.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\03_std.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\03_std.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "05_\uCC38\uC870\uC790.cpp",
+              "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\05_\uCC38\uC870\uC790.cpp",
+              "RelativeDocumentMoniker": "0710\\05_\uCC38\uC870\uC790.cpp",
+              "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\05_\uCC38\uC870\uC790.cpp",
+              "RelativeToolTip": "0710\\05_\uCC38\uC870\uC790.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T02:05:51.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "04_bool\uD615\uD0C0\uC785.cpp",
+              "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\04_bool\uD615\uD0C0\uC785.cpp",
+              "RelativeDocumentMoniker": "0710\\04_bool\uD615\uD0C0\uC785.cpp",
+              "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\04_bool\uD615\uD0C0\uC785.cpp",
+              "RelativeToolTip": "0710\\04_bool\uD615\uD0C0\uC785.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T01:39:15.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "03_std.cpp",
+              "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\03_std.cpp",
+              "RelativeDocumentMoniker": "0710\\03_std.cpp",
+              "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\03_std.cpp",
+              "RelativeToolTip": "0710\\03_std.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T01:35:43.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
+              "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
+              "RelativeDocumentMoniker": "0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
+              "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
+              "RelativeToolTip": "0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T01:22:33.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "01_\uC785\uCD9C\uB825.cpp",
+              "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\01_\uC785\uCD9C\uB825.cpp",
+              "RelativeDocumentMoniker": "0710\\01_\uC785\uCD9C\uB825.cpp",
+              "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\01_\uC785\uCD9C\uB825.cpp",
+              "RelativeToolTip": "0710\\01_\uC785\uCD9C\uB825.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-10T00:31:29.124Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
