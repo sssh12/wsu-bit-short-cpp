@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\11_\uB3D9\uC801\uBA54\uBAA8\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\11_\uB3D9\uC801\uBA54\uBAA8\uB9AC.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\03_std.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\03_std.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{DE637118-69E8-4152-9E39-957B1323985C}|0710\\0710.vcxproj|solutionrelative:0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "11_\uB3D9\uC801\uBA54\uBAA8\uB9AC.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\11_\uB3D9\uC801\uBA54\uBAA8\uB9AC.cpp",
               "RelativeDocumentMoniker": "0710\\11_\uB3D9\uC801\uBA54\uBAA8\uB9AC.cpp",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "10_string.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\10_string.cpp",
               "RelativeDocumentMoniker": "0710\\10_string.cpp",
@@ -91,12 +91,11 @@
               "RelativeToolTip": "0710\\10_string.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T05:12:47.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T05:12:47.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "09_\uD568\uC218\uC758\uAE30\uBCF8\uAC12.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\09_\uD568\uC218\uC758\uAE30\uBCF8\uAC12.cpp",
               "RelativeDocumentMoniker": "0710\\09_\uD568\uC218\uC758\uAE30\uBCF8\uAC12.cpp",
@@ -104,12 +103,11 @@
               "RelativeToolTip": "0710\\09_\uD568\uC218\uC758\uAE30\uBCF8\uAC12.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T04:23:38.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T04:23:38.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "08_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\08_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "RelativeDocumentMoniker": "0710\\08_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
@@ -117,12 +115,11 @@
               "RelativeToolTip": "0710\\08_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T04:13:50.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T04:13:50.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "07_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\07_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "RelativeDocumentMoniker": "0710\\07_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
@@ -130,12 +127,11 @@
               "RelativeToolTip": "0710\\07_\uD568\uC218\uC758\uC624\uBC84\uB85C\uB529.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T04:03:16.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T04:03:16.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "06_\uCC38\uC870\uC790\uC778\uC790\uC804\uB2EC.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\06_\uCC38\uC870\uC790\uC778\uC790\uC804\uB2EC.cpp",
               "RelativeDocumentMoniker": "0710\\06_\uCC38\uC870\uC790\uC778\uC790\uC804\uB2EC.cpp",
@@ -143,12 +139,11 @@
               "RelativeToolTip": "0710\\06_\uCC38\uC870\uC790\uC778\uC790\uC804\uB2EC.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T02:11:12.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T02:11:12.477Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "05_\uCC38\uC870\uC790.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\05_\uCC38\uC870\uC790.cpp",
               "RelativeDocumentMoniker": "0710\\05_\uCC38\uC870\uC790.cpp",
@@ -160,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "04_bool\uD615\uD0C0\uC785.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\04_bool\uD615\uD0C0\uC785.cpp",
               "RelativeDocumentMoniker": "0710\\04_bool\uD615\uD0C0\uC785.cpp",
@@ -168,12 +163,11 @@
               "RelativeToolTip": "0710\\04_bool\uD615\uD0C0\uC785.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T01:39:15.366Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T01:39:15.366Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "03_std.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\03_std.cpp",
               "RelativeDocumentMoniker": "0710\\03_std.cpp",
@@ -185,19 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
               "RelativeDocumentMoniker": "0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
               "ToolTip": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
               "RelativeToolTip": "0710\\02_\uC774\uB984\uC774\uC788\uB294\uACF5\uAC04.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-07-10T01:22:33.702Z"
+              "WhenOpened": "2025-07-10T01:22:33.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "01_\uC785\uCD9C\uB825.cpp",
               "DocumentMoniker": "C:\\Users\\sstou\\\uBC14\uD0D5 \uD654\uBA74\\Learning\\WSU\\Lectures\\wsu-bit-short-cpp\\0710\\0710\\01_\uC785\uCD9C\uB825.cpp",
               "RelativeDocumentMoniker": "0710\\01_\uC785\uCD9C\uB825.cpp",
