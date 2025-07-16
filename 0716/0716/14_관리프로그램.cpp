@@ -288,6 +288,41 @@ private:
 	}
 };
 
+class App {
+	Control con;
+	
+public:
+	void Init() {
+		MyPrint::Logo();
+	}
+
+	void Run() {
+		while (1) {
+			system("cls");
+			con.PrintAll();
+			char input = MyPrint::Menu();
+			switch (input) {
+			case '1': con.InsertMember(); break;
+			case '2': con.SelectMember(); break;
+			case '3': con.UpdateMember(); break;
+			case '4': con.DeleteMember(); break;
+			case '5': return;
+			}
+			system("pause");
+		}
+	}
+
+	void Exit() {
+		MyPrint::Ending();
+	}
+};
+
 int main() {
+	App app;
+
+	app.Init();
+	app.Run();
+	app.Exit();
+
 	return 0;
 }
