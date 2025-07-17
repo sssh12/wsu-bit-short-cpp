@@ -1,0 +1,1 @@
+C:\Users\sstou\바탕 화면\Learning\WSU\Lectures\wsu-bit-short-cpp\0717_회원관리프로그램_예외처리\0717_회원관리프로그램\x64\Debug\0717_회원관리프로그램.exe

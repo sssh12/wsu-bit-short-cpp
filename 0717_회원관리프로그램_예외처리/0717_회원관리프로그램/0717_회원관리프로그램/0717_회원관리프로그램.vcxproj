@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{36f6a019-0e1d-4dc8-8d18-e839e9f7c0fe}</ProjectGuid>
-    <RootNamespace>My0717</RootNamespace>
+    <ProjectGuid>{a26f81b5-3996-4a54-bf9c-7d7e7c0b56b7}</ProjectGuid>
+    <RootNamespace>My0717회원관리프로그램</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,10 +123,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01_멤버함수의외부정의.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="02_구조화된예외처리.cpp" />
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="Member.cpp" />
+    <ClCompile Include="MyArr.cpp" />
+    <ClCompile Include="MyCon.cpp" />
+    <ClCompile Include="MyFile.cpp" />
+    <ClCompile Include="MyInput.cpp" />
+    <ClCompile Include="MyPrint.cpp" />
+    <ClCompile Include="start.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="MyArr.h" />
+    <ClInclude Include="MyCon.h" />
+    <ClInclude Include="MyFile.h" />
+    <ClInclude Include="MyInput.h" />
+    <ClInclude Include="MyPrint.h" />
+    <ClInclude Include="std.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
