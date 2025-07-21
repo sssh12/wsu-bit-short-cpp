@@ -21,5 +21,8 @@
     <ClCompile Include="02_상속과정에서객체생성.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="03_상속과객체초기화.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
