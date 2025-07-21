@@ -36,5 +36,17 @@
     <ClCompile Include="07_다형성.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="08_업캐스팅.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="09_다형성_업캐스팅적용.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10_다형성_가상멤버함수.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11_다운캐스팅.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
