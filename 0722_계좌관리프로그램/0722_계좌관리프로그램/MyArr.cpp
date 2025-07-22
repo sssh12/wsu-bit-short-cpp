@@ -2,12 +2,12 @@
 
 MyArr::MyArr() : size(0), max(ARR_MAX) {
 	for (int i = 0; i < ARR_MAX; i++) {
-		arr[i] = NULL;
+		base[i] = NULL;
 	}
 }
 MyArr::~MyArr() {
 	for (int i = 0; i < size; i++) {
-		delete arr[i];
+		delete base[i];
 	}
 }
 
