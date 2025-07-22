@@ -1,0 +1,121 @@
+#include "std.h"
+
+BankControl::BankControl() {
+	MyFile::LoadAccount(&accounts);
+}
+BankControl::~BankControl() {
+	MyFile::SaveAccount(accounts);
+}
+
+void BankControl::MakeAccount() {
+	printf("계좌 생성\n\n");
+
+	try {
+		int id = MyInsert::InputInteger("계좌번호 입력");
+		string name = MyInsert::InputString("이름 입력");
+		int balance = MyInsert::InputInteger("입금할 금액 입력");
+
+		Account* account = new Account(id, name, balance);
+
+		accounts.PushBack(account);
+		printf("저장되었습니다.\n");
+	}
+	catch (const char* err) {
+		cout << err << endl;
+	}
+}
+void BankControl::SelectAccount() {
+	printf("계좌 검색\n\n");
+
+	try {
+		int id = MyInsert::InputInteger("계좌번호 입력");
+
+		int idx = IdToIdx(id);
+
+		Account* paccount = (Account*)accounts.getData(idx);
+		paccount->Println();
+	}
+	catch (const char* err) {
+		cout << "검색 실패: ";
+		cout << err << endl;
+	}
+}
+
+void BankControl::Deposit() {
+	printf("입금\n\n");
+
+	try {
+		int id = MyInsert::InputInteger("계좌번호 입력");
+
+		int idx = IdToIdx(id);
+
+		int money = MyInsert::InputInteger("입금할 금액 입력");
+
+		Account* paccount = (Account*)accounts.getData(idx);
+		paccount->AddBalance(money);
+
+		printf("입금되었습니다.\n");
+	}
+	catch (const char* err) {
+		cout << "임금 실패: ";
+		cout << err << endl;
+	}
+}
+void BankControl::WithDraw() {
+	printf("출금\n\n");
+
+	try {
+		int id = MyInsert::InputInteger("계좌번호 입력");
+
+		int idx = IdToIdx(id);
+
+		int money = MyInsert::InputInteger("출금할 금액 입력");
+
+		Account* paccount = (Account*)accounts.getData(idx);
+		paccount->MinBalance(money);
+
+		printf("출금되었습니다.\n");
+	}
+	catch (const char* err) {
+		cout << "출금 실패: ";
+		cout << err << endl;
+	}
+}
+void BankControl::DeleteAccount() {
+	printf("계좌 삭제\n\n");
+
+	try {
+		int id = MyInsert::InputInteger("계좌번호 입력");
+
+		int idx = IdToIdx(id);
+
+		accounts.Erase(idx);
+
+		printf("삭제되었습니다.\n");
+	}
+	catch (const char* err) {
+		cout << "삭제 실패: ";
+		cout << err << endl;
+	}
+}
+
+void BankControl::PrintAllAccount() {
+	for (int i = 0; i < accounts.getSize(); i++) {
+		printf("[%d] ", i);
+		Account* paccount = (Account*)accounts.getData(i);
+		paccount->Print();
+	}
+	printf("------------------------------------------------------------------------\n");
+}
+
+int BankControl::IdToIdx(int id) {
+	for (int i = 0; i < accounts.getSize(); i++) {
+		Account* account = (Account*)accounts.getData(i);
+
+		if (account->getId() == id) {
+			return i;
+		}
+	}
+
+	throw "해당하는 계좌 정보가 없습니다.";
+}
