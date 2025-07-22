@@ -4,6 +4,7 @@ string MyFile::filename = "accounts.txt";
 
 void MyFile::LoadAccount(MyArr* paccounts) {
 	ifstream is(filename);
+
 	int size;
 	is >> size;
 	for (int i = 0; i < size; i++) {
