@@ -3,7 +3,7 @@
 #define ARR_MAX 10
 class MyArr {
 private:
-	void* arr[ARR_MAX];
+	void* base[ARR_MAX];
 	int size;
 	int max;
 

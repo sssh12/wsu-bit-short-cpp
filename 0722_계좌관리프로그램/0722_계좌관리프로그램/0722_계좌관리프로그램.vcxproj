@@ -126,6 +126,8 @@
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="App.cpp" />
     <ClCompile Include="BankControl.cpp" />
+    <ClCompile Include="ContriAccount.cpp" />
+    <ClCompile Include="FaithAccount.cpp" />
     <ClCompile Include="MyArr.cpp" />
     <ClCompile Include="MyFile.cpp" />
     <ClCompile Include="MyInsert.cpp" />
@@ -136,6 +138,8 @@
     <ClInclude Include="Account.h" />
     <ClInclude Include="App.h" />
     <ClInclude Include="BankControl.h" />
+    <ClInclude Include="ContriAccount.h" />
+    <ClInclude Include="FaithAccount.h" />
     <ClInclude Include="MyArr.h" />
     <ClInclude Include="MyFile.h" />
     <ClInclude Include="MyInsert.h" />

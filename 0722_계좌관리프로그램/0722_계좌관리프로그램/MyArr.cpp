@@ -2,12 +2,12 @@
 
 MyArr::MyArr() : size(0), max(ARR_MAX) {
 	for (int i = 0; i < ARR_MAX; i++) {
-		arr[i] = NULL;
+		base[i] = NULL;
 	}
 }
 MyArr::~MyArr() {
 	for (int i = 0; i < size; i++) {
-		delete arr[i];
+		delete base[i];
 	}
 }
 
@@ -23,14 +23,14 @@ void* MyArr::getData(int idx) {
 	if (idx < 0 || idx >= size) {
 		throw "잘못된 인덱스";
 	}
-	return arr[idx];
+	return base[idx];
 }
 
 void MyArr::PushBack(void* value) {
 	if (max <= size) {
 		throw "저장 공간이 부족합니다.";
 	}
-	arr[size] = value;
+	base[size] = value;
 	size++;
 
 }
@@ -41,7 +41,7 @@ void MyArr::Erase(int idx) {
 	}
 
 	for (int i = idx; i < size - 1; i++) {
-		arr[i] = arr[i + 1];
+		base[i] = base[i + 1];
 	}
 	size--;
 }

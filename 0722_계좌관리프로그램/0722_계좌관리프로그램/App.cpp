@@ -1,7 +1,11 @@
 #include "std.h"
 
-void App::Init() {
-	MyPrint::Logo();
+App::App() {
+	App::Init();
+}
+
+App::~App() {
+	App::Exit();
 }
 
 void App::Run() {
@@ -19,6 +23,10 @@ void App::Run() {
 		}
 		system("pause");
 	}
+}
+
+void App::Init() {
+	MyPrint::Logo();
 }
 
 void App::Exit() {

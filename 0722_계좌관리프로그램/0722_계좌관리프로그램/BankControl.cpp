@@ -11,14 +11,32 @@ void BankControl::MakeAccount() {
 	printf("계좌 생성\n\n");
 
 	try {
+		int type = MyInsert::InputInteger("계좌종류 입력 (1:일반 2:신용 3:기부)");
 		int id = MyInsert::InputInteger("계좌번호 입력");
 		string name = MyInsert::InputString("이름 입력");
 		int balance = MyInsert::InputInteger("입금할 금액 입력");
-
-		Account* account = new Account(id, name, balance);
+		int contribution = 0;
+		int donate = (int)(balance * 0.1);
+		
+		Account* account;
+		if (type == 1) {
+			account = new Account(id, name, balance);
+		}
+		else if (type == 2) {
+			balance += (int)(balance * 0.1);
+			account = new FaithAccount(id, name, balance);
+		}
+		else if (type == 3) {
+			balance -= donate;
+			contribution += donate;
+			account = new ContriAccount(id, name, balance, contribution);
+		}
+		else {
+			throw "잘못된 계좌종류입니다.";
+		}
 
 		accounts.PushBack(account);
-		printf("저장되었습니다.\n");
+		printf("생성되었습니다.\n");
 	}
 	catch (const char* err) {
 		cout << err << endl;

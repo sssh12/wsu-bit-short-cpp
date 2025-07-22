@@ -1,8 +1,8 @@
 #include "std.h"
 
-Account::Account(int _id, string _name) : id(_id), name(_name) {};
+Account::Account(int _id, string _name): type(1), id(_id), name(_name) {};
 Account::Account(int _id, string _name, int _balance)
-	: id(_id), name(_name), balance(_balance) {
+	:  type(1), id(_id), name(_name), balance(_balance) {
 };
 
 int Account::getId() const {
@@ -15,6 +15,10 @@ string Account::getName() const {
 
 int Account::getBalance() const {
 	return balance;
+}
+
+int Account::getType() const {
+	return type;
 }
 
 void Account::AddBalance(int money) {

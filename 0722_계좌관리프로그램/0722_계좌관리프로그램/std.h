@@ -12,3 +12,5 @@ using namespace std;
 #include "MyPrint.h"
 #include "App.h"
 #include "MyFile.h"
+#include "FaithAccount.h"
+#include "ContriAccount.h"

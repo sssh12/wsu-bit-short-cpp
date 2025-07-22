@@ -4,9 +4,13 @@ class App {
 	BankControl bank;
 
 public:
-	void Init();
+	App();
+	~App();
 
+public:
 	void Run();
 
+private:
+	void Init();
 	void Exit();
 };
