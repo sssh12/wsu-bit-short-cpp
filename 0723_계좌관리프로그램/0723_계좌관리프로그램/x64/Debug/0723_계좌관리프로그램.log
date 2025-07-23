@@ -1,0 +1,10 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(0723_계좌관리프로그램_리팩토링.vcxproj, 0723_계좌관리프로그램.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Account.cpp
+  App.cpp
+  BankControl.cpp
+  MyFile.cpp
+  MyInput.cpp
+  MyPrint.cpp
+  start.cpp
+  코드를 생성하고 있습니다...
+  0723_계좌관리프로그램.vcxproj -> C:\Users\sstou\바탕 화면\Learning\WSU\Lectures\wsu-bit-short-cpp\0723_계좌관리프로그램\x64\Debug\0723_계좌관리프로그램_vector.exe
